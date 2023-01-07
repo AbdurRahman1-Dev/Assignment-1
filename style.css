@@ -10,6 +10,9 @@
   margin: 0 auto;
 }
 
+img{
+  max-width: 100%;
+}
 
 /* Header Banner Section */
 
@@ -60,4 +63,52 @@ header{
    color: #fff;
    margin-top: 15px;
    background-color: #F15B22;
+}
+
+
+/* My failures of previous year Section style */
+
+.my-failures{
+  display: flex;
+  justify-content: space-between;
+  gap: 87px;
+  align-items: center;
+  margin: 100px 0px;
+}
+
+.my-failure-img{
+  width: 50%;
+}
+
+.my-failure-content{
+  width: 50%;
+}
+
+.my-failure-content h2{
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+color: #151414;
+}
+
+.my-failure-content p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  padding: 17px 0px;
+}
+
+.my-failure-content li{
+  list-style: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  padding: 4px;
+  color: #444343;
+}
+
+.my-failure-content li i{
+  padding: 5px;
+  color: #16D887;
 }
