@@ -112,3 +112,38 @@ color: #151414;
   padding: 5px;
   color: #16D887;
 }
+
+
+/* My Plans sectone style */
+
+.my-plan h3{
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  padding: 60px 0px;
+  color: #151414;
+}
+
+.my-plan-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.plans h4{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #151414;
+  padding: 10px 0px;
+}
+
+.plans p{
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  color: #737272;
+}
